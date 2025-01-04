@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState(false);
   const [background, setBackground] = useState("default");
 
-  const API_KEY = ""; // Replace with your OpenWeatherMap API Key
+  const API_KEY = "1d52e53bf5b090a7a4ba82ce6d91ff91"; // Replace with your OpenWeatherMap API Key
 
   const weatherIcons = {
     Thunderstorm: "wi-thunderstorm",
